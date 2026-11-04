@@ -1,0 +1,37 @@
+{
+  "kind": "physical FPGA test",
+  "port": "COM4",
+  "checks": [
+    {
+      "test": "bad_crc",
+      "status": "PASS"
+    },
+    {
+      "test": "bad_tail",
+      "status": "PASS"
+    },
+    {
+      "test": "reserved_status",
+      "status": "PASS"
+    },
+    {
+      "test": "truncated_frame",
+      "status": "PASS"
+    },
+    {
+      "test": "20_soft_resets_preserve_bram_and_clear_registers",
+      "status": "PASS"
+    },
+    {
+      "test": "single_step_then_run_to_ebreak",
+      "status": "PASS"
+    },
+    {
+      "test": "gpio_output_register_patterns",
+      "status": "PASS"
+    }
+  ],
+  "switch_input": 0,
+  "final_gpio": 15,
+  "limits": "No external UART loopback, physical-button reset, power cycle, ILA or instrument capture tested."
+}

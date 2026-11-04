@@ -1,0 +1,10 @@
+{
+  "halt_reason": "ebreak",
+  "halt_pc": 12,
+  "registers": {
+    "x0": 0,
+    "x1": 5,
+    "x2": 7,
+    "x3": 12
+  }
+}

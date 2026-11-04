@@ -1,0 +1,42 @@
+[
+  {
+    "file": "mingw-w64-x86_64-iverilog-1~13.0-2-any.pkg.tar.zst",
+    "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-iverilog-1~13.0-2-any.pkg.tar.zst",
+    "sha256": "e22c86dad1a0658d5f769362bfbec6533028c0d0bb63059b4fda0cc1084d1406"
+  },
+  {
+    "file": "mingw-w64-x86_64-libgcc-16.2.0-4-any.pkg.tar.zst",
+    "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libgcc-16.2.0-4-any.pkg.tar.zst",
+    "sha256": "d615f6a8536ca16b1f049daea1fa440a3b7a405449ec0e93ad6106db43682d54"
+  },
+  {
+    "file": "mingw-w64-x86_64-libstdc++-16.2.0-4-any.pkg.tar.zst",
+    "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libstdc%2B%2B-16.2.0-4-any.pkg.tar.zst",
+    "sha256": "3d4c3faf4c2c5c7a851ff12214ddcbf8c0d6df0964fc1d3ebd8c38f227183034"
+  },
+  {
+    "file": "mingw-w64-x86_64-libwinpthread-git-12.0.0.r747.g1a99f8514-1-any.pkg.tar.zst",
+    "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libwinpthread-git-12.0.0.r747.g1a99f8514-1-any.pkg.tar.zst",
+    "sha256": "38e0a33fc8b3b6b761d4958fa69afef6e0804e4ef7ea64018004da02f9b2294f"
+  },
+  {
+    "file": "mingw-w64-x86_64-bzip2-1.0.8-4-any.pkg.tar.zst",
+    "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-bzip2-1.0.8-4-any.pkg.tar.zst",
+    "sha256": "123768f30ae14ba654a6feb70f8526146a331bc85f831a91a549ffb3f6cbffc7"
+  },
+  {
+    "file": "mingw-w64-x86_64-zlib-1.3.2-2-any.pkg.tar.zst",
+    "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-zlib-1.3.2-2-any.pkg.tar.zst",
+    "sha256": "9e75842a070ba648e986e12424e1c92c9d7d77200e85f6a34eeb600819f2e694"
+  },
+  {
+    "file": "mingw-w64-x86_64-readline-8.3.003-1-any.pkg.tar.zst",
+    "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-readline-8.3.003-1-any.pkg.tar.zst",
+    "sha256": "b943d7e2a61ac6e0304eac11cdcee15370a8c2ccee5b84487f8ad6c1e103d66c"
+  },
+  {
+    "file": "mingw-w64-x86_64-termcap-1.3.1-7-any.pkg.tar.zst",
+    "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-termcap-1.3.1-7-any.pkg.tar.zst",
+    "sha256": "04ca275febc3ef461d55f8468fd05c6355ca0fda3be4a77bfdb906cf9d88a1e8"
+  }
+]

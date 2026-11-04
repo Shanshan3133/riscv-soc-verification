@@ -1,0 +1,30 @@
+{
+  "kind": "RTL UART waveform simulation; no hardware",
+  "results": [
+    {
+      "test": "tb_peripherals",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_debug",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_demo",
+      "status": "PASS"
+    }
+  ],
+  "valid_debug_commands": 35,
+  "rejected_frames": 3,
+  "truncated_frame_timeout": true,
+  "source_sha256": {
+    "rtl\\board\\board_top.sv": "b1183216300b681cf801720089e6089a3dc7f68edafb0ac6934bad8d49ae6cf3",
+    "rtl\\board\\fpga_top.sv": "03876e22f587ee8f7f73edc9d684cd8f9f315953bf5a1e32a00e18583587c87d",
+    "rtl\\core\\regfile.sv": "95a8e8229fa3e5b76f26b9a08db618920688612bed3f3818002bf85d64e8623e",
+    "rtl\\core\\rv32_core.sv": "f27b550a89bb757571a6f61492158d00a8c36c0f12e9e6a2d8481bacb77721f0",
+    "rtl\\debug\\debug_bridge.sv": "1ca5e8c5548ed7f6e83d958fae588baf6b913b11547c104441069177470b420d",
+    "rtl\\periph\\uart.sv": "490d34bd72ed9022d50dfe0f4437400fc873c7f20101e76732cd96468aff7aac",
+    "rtl\\soc\\rv32_soc.sv": "02225f791dafcc0423948d27114bcc49711f784886f04ee2676e3592702c98dc",
+    "rtl\\soc\\soc_fabric.sv": "f48020416d23597ecb5cd8a42798ab9bcc22e33f8beb7488084e275943082c5f"
+  }
+}

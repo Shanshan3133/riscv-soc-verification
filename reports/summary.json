@@ -1,0 +1,69 @@
+{
+  "cpu_runs": 122,
+  "cpu_passes": 122,
+  "functional_coverage_gate": {
+    "passed": true,
+    "required_instructions": 38,
+    "missing": [],
+    "missing_branches": [],
+    "missing_traps": []
+  },
+  "retirements_compared": 6902,
+  "observed_extra_wait_cycles": 7831,
+  "integration": {
+    "kind": "RTL UART waveform simulation; no hardware",
+    "results": [
+      {
+        "test": "tb_peripherals",
+        "status": "PASS"
+      },
+      {
+        "test": "tb_debug",
+        "status": "PASS"
+      },
+      {
+        "test": "tb_demo",
+        "status": "PASS"
+      }
+    ],
+    "valid_debug_commands": 35,
+    "rejected_frames": 3,
+    "truncated_frame_timeout": true,
+    "source_sha256": {
+      "rtl\\board\\board_top.sv": "b1183216300b681cf801720089e6089a3dc7f68edafb0ac6934bad8d49ae6cf3",
+      "rtl\\board\\fpga_top.sv": "69f0c7f79364f6778686a9546c7ca0290e7e6b7cf92366b691f8f44c42726b8c",
+      "rtl\\core\\regfile.sv": "95a8e8229fa3e5b76f26b9a08db618920688612bed3f3818002bf85d64e8623e",
+      "rtl\\core\\rv32_core.sv": "f27b550a89bb757571a6f61492158d00a8c36c0f12e9e6a2d8481bacb77721f0",
+      "rtl\\debug\\debug_bridge.sv": "1ca5e8c5548ed7f6e83d958fae588baf6b913b11547c104441069177470b420d",
+      "rtl\\periph\\uart.sv": "490d34bd72ed9022d50dfe0f4437400fc873c7f20101e76732cd96468aff7aac",
+      "rtl\\soc\\rv32_soc.sv": "02225f791dafcc0423948d27114bcc49711f784886f04ee2676e3592702c98dc",
+      "rtl\\soc\\soc_fabric.sv": "f48020416d23597ecb5cd8a42798ab9bcc22e33f8beb7488084e275943082c5f"
+    }
+  },
+  "synthesis_tool": "Yosys 0.69 (git sha1 9f75ca1f9, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+  "synthesis_cells": {
+    "BUFG": 2,
+    "CARRY4": 171,
+    "FDPE": 2,
+    "FDRE": 2066,
+    "FDSE": 51,
+    "IBUF": 8,
+    "INV": 208,
+    "LUT2": 771,
+    "LUT3": 516,
+    "LUT4": 712,
+    "LUT5": 1305,
+    "LUT6": 1005,
+    "MMCME2_BASE": 1,
+    "MUXF7": 8,
+    "MUXF8": 3,
+    "OBUF": 12,
+    "RAMB36E1": 8
+  },
+  "not_executed": [
+    "Vivado implementation/static timing/bitstream",
+    "physical FPGA tests",
+    "instrument capture",
+    "remote GitHub Actions"
+  ]
+}

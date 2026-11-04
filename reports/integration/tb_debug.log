@@ -1,0 +1,2 @@
+PASS debug transport simulation: 560 response bytes
+C:\Users\massa\Documents\Codex\2026-10-04\risc-v-soc-verilog-systemverilog-risc\outputs\riscv-soc\verification\tb_debug.sv:45: $finish called at 3325420000 (1ps)

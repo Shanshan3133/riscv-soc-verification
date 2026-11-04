@@ -1,0 +1,3 @@
+WARNING: C:\Users\massa\Documents\Codex\2026-10-04\risc-v-soc-verilog-systemverilog-risc\outputs\riscv-soc\rtl\soc\soc_fabric.sv:24: $readmemh(firmware/demo.hex): Not enough words in the file for the requested range [0:4095].
+PASS demo: CPU program emitted RV32I OK, GPIO=15, EBREAK
+C:\Users\massa\Documents\Codex\2026-10-04\risc-v-soc-verilog-systemverilog-risc\outputs\riscv-soc\verification\tb_demo.sv:22: $finish called at 20420000 (1ps)

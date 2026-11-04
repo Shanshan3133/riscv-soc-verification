@@ -1,0 +1,5 @@
+read_verilog -sv rtl/core/rv32_core.sv rtl/periph/uart.sv rtl/soc/soc_fabric.sv rtl/soc/rv32_soc.sv rtl/debug/debug_bridge.sv rtl/board/fpga_top.sv rtl/board/board_top.sv
+synth_xilinx -family xc7 -top board_top
+check -assert
+stat
+write_json reports/netlist-xc7.json

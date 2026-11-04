@@ -1,0 +1,2 @@
+PASS peripherals: BRAM, GPIO, UART TX/RX/busy/overflow/framing, bus errors
+C:\Users\massa\Documents\Codex\2026-10-04\risc-v-soc-verilog-systemverilog-risc\outputs\riscv-soc\verification\tb_peripherals.sv:67: $finish called at 8580000 (1ps)

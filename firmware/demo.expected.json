@@ -1,0 +1,6 @@
+{
+  "uart_ascii": "RV32I OK\r\n",
+  "gpio": 15,
+  "halt_reason": 1,
+  "halt_pc": 232
+}
